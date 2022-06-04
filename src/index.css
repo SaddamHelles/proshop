@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  margin-bottom: 80px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+figure {
+  border: 1px #cccccc solid;
+  padding: 3px;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.counter button{
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  width: 1.6rem;
+}
+.counter number {
+background-color: white;
+padding: 0 15px 0 15px;
+margin: 0 3px 0 3px;
+}
+
+hr{
+  margin: 8px 0 8px 0;
 }

@@ -1,0 +1,33 @@
+nav {
+  width: 100%;
+  min-height: 85px;
+  background: #242424 0% 0% no-repeat padding-box;
+  color: white;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  /* top: 18px; */
+  margin:auto;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+}
+
+.logo-pro {
+  /* UI Properties */
+  display: inline-block;
+  position: absolute;
+  top: 36%;
+  font: normal normal 900 40px/15px Muli;
+  letter-spacing: 1.6px;
+  color: #fcdd06;
+}
+.logo-shop {
+  font: normal normal 900 40px/15px Muli;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+}

@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { MainContainer } from "./Global.Style";
+import Nav from "./Components/Nav/Nav";
+import Slider from "./Components/Slider/Slider";
+import { Line } from "./Components/Line/Line";
+// My pages of proShop
+import Page1 from "./Pages/Page1";
+import Page2 from "./Pages/Page2";
+import Page3 from "./Pages/Page3";
+import Page4 from "./Pages/Page4";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainContainer className="App">
+      <Nav />
+      <Page1 />
+      <Page2 />
+      <Page3 />
+      <Page4 />
+    </MainContainer>
   );
 }
 

@@ -1,0 +1,38 @@
+
+form.example input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+    border-radius: 8px 0px 0px 8px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 6px;
+    background: #FCDD06 ;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+  }
+  
+  /* form.example button:hover {
+    background: #0b7dda;
+  } */
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .search-input{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
