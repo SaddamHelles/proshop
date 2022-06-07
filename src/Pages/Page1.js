@@ -12,13 +12,12 @@ import ImgCard1 from "../images/img11.PNG";
 import ImgCard2 from "../images/img10.PNG";
 import ImgCard3 from "../images/img9.PNG";
 import ImgCard4 from "../images/img5.PNG";
-import UrlImage from "../images/img1.PNG";
-import Slider from "../Components/Slider/Slider";
+import { MySwiper } from "../Components/Swiper/Swiper";
 
 function Page1() {
   return (
     <>
-      <Slider UrlImage={UrlImage} />
+      <MySwiper />
       <Line />
       <GeneralContainer>
         <Title>Featured Categories</Title>

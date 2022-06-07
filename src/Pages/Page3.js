@@ -15,13 +15,12 @@ import UrlImage from "../images/img13.PNG";
 import img8 from "../images/img8.PNG";
 import img7 from "../images/img7.PNG";
 import img6 from "../images/img6.PNG";
-
-import Slider from "../Components/Slider/Slider";
+import { MySwiper } from "../Components/Swiper/Swiper";
 
 function Page3() {
   return (
     <>
-      <Slider UrlImage={UrlImage} />
+      <MySwiper />
       <Line />
       <GeneralContainer>
         <Title>Featured Categories</Title>
