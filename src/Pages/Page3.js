@@ -26,11 +26,11 @@ function Page3() {
         <Title>Featured Categories</Title>
 
         <figure>
-          <Image wdith={""} src={Img2} />
+          <Image src={Img2} />
           <figcaption>LAPTOP</figcaption>
         </figure>
         <figure>
-          <Image wdith={""} src={Img3} />
+          <Image src={Img3} />
           <figcaption>COMPUTER COMPONENTS</figcaption>
         </figure>
         <figure>
